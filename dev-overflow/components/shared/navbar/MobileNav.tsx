@@ -24,7 +24,7 @@ const NavContent = () => {
           <SheetClose asChild key={item.label}>
             <Link
               href={item.route}
-              className={`${isActive ? "primary-gradient rounded-lg text-ligh-900" : "text-dark3--_ligh900"} flex items-center justify-start gap-4 p-4 bg-transparent`}
+              className={`${isActive ? "primary-gradient rounded-lg text-light-900" : "text-dark300_light900"} flex items-center justify-start gap-4 p-4 bg-transparent`}
             >
               <Image
                 src={item.imgURL}
@@ -33,7 +33,9 @@ const NavContent = () => {
                 alt={item.label}
                 className={`${isActive ? "" : "invert-colors"}`}
               />
-              <p>{item.label}</p>
+              <p className={`${isActive ? "base-bold" : "base-medium"}`}>
+                {item.label}
+              </p>
             </Link>
           </SheetClose>
         );
