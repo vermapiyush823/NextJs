@@ -3,23 +3,23 @@ import Link from "next/link";
 import RenderTag from "./RenderTag";
 const hotQuestions = [
   {
-    _id: 1,
+    _id: "1",
     title: "How do i use express as a custom  i use express as a custom",
   },
-  { _id: 2, title: "How do i use express as a custom" },
+  { _id: "2", title: "How do i use express as a custom" },
   {
-    _id: 3,
+    _id: "3",
     title: "How do i use express as aHow do i use express as a custom custom",
   },
-  { _id: 4, title: "How do i use express as a custom" },
-  { _id: 5, title: "How do i use express as a custom" },
+  { _id: "4", title: "How do i use express as a custom" },
+  { _id: "5", title: "How do i use express as a custom" },
 ];
 const popularTags = [
-  { _id: 1, name: "javascript", totalQuestions: 5 },
-  { _id: 2, name: "dsa", totalQuestions: 5 },
-  { _id: 3, name: "next", totalQuestions: 5 },
-  { _id: 4, name: "react", totalQuestions: 5 },
-  { _id: 5, name: "java", totalQuestions: 5 },
+  { _id: "1", name: "javascript", totalQuestions: 5 },
+  { _id: "2", name: "dsa", totalQuestions: 5 },
+  { _id: "3", name: "next", totalQuestions: 5 },
+  { _id: "4", name: "react", totalQuestions: 5 },
+  { _id: "5", name: "java", totalQuestions: 5 },
 ];
 const RightSideBar = () => {
   return (

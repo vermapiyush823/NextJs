@@ -33,7 +33,7 @@ const Theme = () => {
             />
           )}
         </MenubarTrigger>
-        <MenubarContent className="absolute right-[-3rem] mt-3 win-w-[120px] rounded border py-2 dark:border-dark-400 dark:bg-dark-300 ">
+        <MenubarContent className="absolute right-[-3rem] mt-3 win-w-[120px] rounded border py-2 dark:border-dark-200 background-light900_dark300">
           {themes.map((item) => (
             <MenubarItem
               key={item.value}
@@ -45,7 +45,7 @@ const Theme = () => {
                   localStorage.removeItem("theme");
                 }
               }}
-              className="dark:focus:bg-dark-400 flex item-center gap-4 px-2.5 py-2"
+              className="dark:focus:bg-dark-400  flex item-center gap-4 px-2.5 py-2 "
             >
               <Image
                 src={item.icon}

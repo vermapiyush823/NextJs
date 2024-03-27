@@ -1,7 +1,7 @@
 "use client";
+import { Button } from "@/components/ui/button";
 import { sidebarLinks } from "@/constants";
 import { SignedOut } from "@clerk/nextjs";
-import { Button } from "@mui/material";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
